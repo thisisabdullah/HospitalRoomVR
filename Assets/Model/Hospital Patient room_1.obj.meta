@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: 2349fdd513b874d80ab8c6655888082f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 0Mat
+    second: {fileID: 2100000, guid: 4dd13036d97bbd74c9ce61ef86972445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Hand_Soap_Dispenser_ButtonMat
+    second: {fileID: 2100000, guid: ec80f52b427f2914188959cb982ecf0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Hand_Soap_Dispenser_DispenserMat
+    second: {fileID: 2100000, guid: f3486574c6708834281bb16821225e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Hand_Soap_Dispenser_GlassMat
+    second: {fileID: 2100000, guid: 1744420c867f5a148a5b0a3128560dae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Hand_Soap_Dispenser_SoapMat
+    second: {fileID: 2100000, guid: dbaa8164bdf0e254aa32a434dca30f75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Hand_Soap_Dispenser_Soap_head_BlackMat
+    second: {fileID: 2100000, guid: ead42acc3ce835a4083b9651ad91356f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Mirror_FrameMat
+    second: {fileID: 2100000, guid: 1e71166ba06a2f7409abea07a8a1b6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Mirror_GlassMat
+    second: {fileID: 2100000, guid: 682165199296d3d40949aab68cc48c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Paper_Towel_Dispenser_Brand_LogoMat
+    second: {fileID: 2100000, guid: 0433f04d7056da143ad6f55e5d570162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Paper_Towel_Dispenser_CartonMat
+    second: {fileID: 2100000, guid: 568abee887d043041b5c890bf49b63f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Paper_Towel_Dispenser_DispenserMat
+    second: {fileID: 2100000, guid: f55809ec20c0d8947905d9bc533d998e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Paper_Towel_Dispenser_Paper_Towel_steelMat
+    second: {fileID: 2100000, guid: c6c90b2dc1ac1664c821ba1126c6cb9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Paper_Towel_Dispenser_Paper_toiletMat
+    second: {fileID: 2100000, guid: b2a1a9f774b9ace4885c6885ef8e7404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Paper_Towel_Dispenser_SensorMat
+    second: {fileID: 2100000, guid: 436512e6b4134a2459f6577c8c709f0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Shower_handleMat
+    second: {fileID: 2100000, guid: 75d472c44cc1a8344a1537af9e600800, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sinitizer_Dispenser_DispenserMat
+    second: {fileID: 2100000, guid: 8b5fb9be18081d34496defe5ad084ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sinitizer_Dispenser_GlassMat
+    second: {fileID: 2100000, guid: 158b9ae6dd3250a4cb146301c33a8ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sinitizer_Dispenser_Hand_buttonMat
+    second: {fileID: 2100000, guid: 5000c22462d234c4ba7288021d304ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sinitizer_Dispenser_LiquidMat
+    second: {fileID: 2100000, guid: b431ea0a4f2ebb444bf08b4a8d10606d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sink_PipesMat
+    second: {fileID: 2100000, guid: d3a199ee722348949a9340ef009a5fe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sink_SinkMat
+    second: {fileID: 2100000, guid: 4a8bc650ecbaec240877a24327d2523c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Sink_Water_tap_SteelMat
+    second: {fileID: 2100000, guid: f1935f14674eb32478933e8b043a0364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Toilet_Black_PlasticMat
+    second: {fileID: 2100000, guid: fa4f39f60519e8347a55ca183a2b5327, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Toilet_GlassMat
+    second: {fileID: 2100000, guid: b78cd6bb3248cd04796ae1ae48cdadb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Toilet_SteelMat
+    second: {fileID: 2100000, guid: 50bb7d1a48774cf4a9ac9cf034f4082a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_Toilet_ToiletMat
+    second: {fileID: 2100000, guid: 31a46a8f3198743408401b63dc668d75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_bathroom_accessoriesMat
+    second: {fileID: 2100000, guid: 7fb74127bd5fdff4d96c437ab1c0c03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_shower_Main_showerMat
+    second: {fileID: 2100000, guid: 25fcbf459d055b141b7021b80120dc16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_shower_curtainMat
+    second: {fileID: 2100000, guid: 6ded75d1e55461949afef60ac7223e1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bathroom_shower_shower_headMat
+    second: {fileID: 2100000, guid: c2247ab30728ca14a96733c5e66c024b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_no_hands_no_legs_Body_no_hands_no_legs_sldprt_Body_no_hands_no_legsMat
+    second: {fileID: 2100000, guid: f8d0c7be433afe547a2f066c7cc111a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_Bathroom_ceilingMat
+    second: {fileID: 2100000, guid: fa975bd9d89434d488c90565897c78c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_C_division_lineMat
+    second: {fileID: 2100000, guid: 0eab924fe650b834b87bcb4c9232ad3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_CeilingMat
+    second: {fileID: 2100000, guid: 1f7c156c1fa192e49b129532b4ae6b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Celing_1Mat
+    second: {fileID: 2100000, guid: ca37f59bb177f7543b12ada6f8534b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet_Closet_handMat
+    second: {fileID: 2100000, guid: 3e3d4ebb5a88661489686608de6e82fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet_Main_ClosetMat
+    second: {fileID: 2100000, guid: a373bd01378cc6644a9273295987d05f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet_Room_Sink_Room_Sink_1Mat
+    second: {fileID: 2100000, guid: 3dee5119220c19343af783b6aab00ceb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet_Room_Sink_Water_TapMat
+    second: {fileID: 2100000, guid: a6c86ad38d568ba49a3bd6ba03147203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Closet_SurfaceMat
+    second: {fileID: 2100000, guid: 2ba095065e159fd468fa223eb43c5b54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultMat
+    second: {fileID: 2100000, guid: ac6071b5e485e724989f28083e066c14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Bathroom_FloorMat
+    second: {fileID: 2100000, guid: dfa3406733cb07a4fb458ddd5b0a5593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Room_FloorMat
+    second: {fileID: 2100000, guid: fe072128bd58bbf45918a27593266810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IV__Stand_Filter_Filter_GlassMat
+    second: {fileID: 2100000, guid: 08085a478a4b4324ea6bed87ea1a383d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IV__Stand_Filter_plasticMat
+    second: {fileID: 2100000, guid: 1d4d7ed3805383d49896d02595d652f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IV__Stand_FluidMat
+    second: {fileID: 2100000, guid: a558c6d39b79fca4d8ea407fe89ea19b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IV__Stand_Fluid_bagMat
+    second: {fileID: 2100000, guid: d5c04c9f50e160642bdc86113ba70bfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IV__Stand_IV_WheelsMat
+    second: {fileID: 2100000, guid: 4f6f34beb24717645a95dd5d736d2458, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IV__Stand_StandMat
+    second: {fileID: 2100000, guid: 02e1f9da739f32d46a5b63b1f1bd0303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_Black_PlasticMat
+    second: {fileID: 2100000, guid: c310b27fc792f904b83a9134ad7c18cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_Black_steelMat
+    second: {fileID: 2100000, guid: 5dc781f62e014b44782807bdd714c7ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_Gray_SteelMat
+    second: {fileID: 2100000, guid: e10ce93f6fe05514186090d6438b3eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_NailsMat
+    second: {fileID: 2100000, guid: 40b21cadb97eda7418746eceee95a0c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_RubberMat
+    second: {fileID: 2100000, guid: e11998fe4ad8e6448a7478f1e3252d1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_WheelsMat
+    second: {fileID: 2100000, guid: ff8d5d7b54165de4b84199b9ce27231b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_White_PlasticMat
+    second: {fileID: 2100000, guid: 8fa1a6b1cac30154a98f57b866493d3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lift_system_Lift_beamMat
+    second: {fileID: 2100000, guid: 196965094b0f4514f96934ad39f83a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Headwall_lightMat
+    second: {fileID: 2100000, guid: ef4dbc9d52af85f468bf5457369a27c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Headwall_light_coverMat
+    second: {fileID: 2100000, guid: baa3027f7ff41034580e206fb159c9b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_BoxMat
+    second: {fileID: 2100000, guid: daab8d7e8491c104e8c3ac3f22802f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_Box_baseMat
+    second: {fileID: 2100000, guid: eb8b583f1b1be4a4fa6a4c0364078746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_DoorMat
+    second: {fileID: 2100000, guid: 66d41fd31ac3c1a4597297bc080ebac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_WheelsMat
+    second: {fileID: 2100000, guid: dea60a18aa79dd14d8e24674ad5e85a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_Wheels_coverMat
+    second: {fileID: 2100000, guid: be5ac289a07b7764c854a26aa48df5d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_box_handleMat
+    second: {fileID: 2100000, guid: 2169e070f331293429d1cb9967c6a160, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_inner_shelvesMat
+    second: {fileID: 2100000, guid: 336df1d11e924ae4e9c4b6d95f3062ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_Main_Box_inner_surfaceMat
+    second: {fileID: 2100000, guid: 2ee2d4700fe1cb843a504b7254c73391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Box_TableMat
+    second: {fileID: 2100000, guid: 5f9f07dbdb8f93d42989aed188985e57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Computer_C__FrameMat
+    second: {fileID: 2100000, guid: b430c524d4d3f81419a9d2e8121a870a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Computer_KeyboardMat
+    second: {fileID: 2100000, guid: ad2c3322072607c40aa31b0f090c3885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Computer_ScreenMat
+    second: {fileID: 2100000, guid: cde9fa190663d6a4ca5600d352f65cd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Mask_MaksMat
+    second: {fileID: 2100000, guid: 6e3ae3aa809bb2c4895a73b9e1598419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Mask_RopeMat
+    second: {fileID: 2100000, guid: 2c30a6f89ef597846b0081da23f8037c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Medical_stand_PipeMat
+    second: {fileID: 2100000, guid: b4fb9acac56ca914ca4cd0f36c19fe54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medical_Machine_Medical_stand_StandMat
+    second: {fileID: 2100000, guid: d07afed03b16bba4a825a17085c411d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_Bed_1_Bed_WheelsMat
+    second: {fileID: 2100000, guid: 8a4578351d372644fb68b638a15d2125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_Bed_1_Bed_coverMat
+    second: {fileID: 2100000, guid: 0d3320a88a499514e8c3e3cbd28d801b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_Bed_1_Bed_parts_1_UpMat
+    second: {fileID: 2100000, guid: 420dbb6c6fba7204f97d889fba2314bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_Bed_1_MattressMat
+    second: {fileID: 2100000, guid: e8590c8486eae6343ae3e7f51deb161b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_Bed_1_PillowMat
+    second: {fileID: 2100000, guid: 32e71e6c03333434ebd92b46add55702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_Bed_1_bed_partsMat
+    second: {fileID: 2100000, guid: 64d4cd1ed6fb31e4aa6fb92ae5dcaee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patient_clothsMat
+    second: {fileID: 2100000, guid: 8063ca726fd58384fa0a528b7007c72f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patinet_table_StandMat
+    second: {fileID: 2100000, guid: aec15aa8d73b8da44817c14109e23c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patinet_table_TableMat
+    second: {fileID: 2100000, guid: 596c1216970607343a63529a87c7728c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patinet_table_Wheels_coverMat
+    second: {fileID: 2100000, guid: 4bdf407b79a0a3043a2d470b83e4aa32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patinet_table_plastic_1Mat
+    second: {fileID: 2100000, guid: cfb36ebcd121f2c469c7ccb73c71928a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patinet_table_wheelsMat
+    second: {fileID: 2100000, guid: 07648e0313da9b2429e986b88c3d7a10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Door_DoorMat
+    second: {fileID: 2100000, guid: 478d3573eb35712478fcd3f66ca1ff0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Door_Door_handMat
+    second: {fileID: 2100000, guid: d2e561794ee7b67409e396cca0a2dcb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Door_FrameMat
+    second: {fileID: 2100000, guid: d67f27bcae0bb7e46838ca7bdf4b4c04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room_Door_GlassMat
+    second: {fileID: 2100000, guid: 9aa5b564f88e9be41a177fb2198a5232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sketchfab_model_root_GLTF_SceneRootNode_Empty_5_Bottom_1Mat
+    second: {fileID: 2100000, guid: 3f169b5eaaa66d844a3e63f2772294c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sketchfab_model_root_GLTF_SceneRootNode_Empty_5_Cylinder_001_3Mat
+    second: {fileID: 2100000, guid: 7438a20ed5da5b04195f142e3c14c2b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sketchfab_model_root_GLTF_SceneRootNode_Empty_5_Cylinder_2Mat
+    second: {fileID: 2100000, guid: fe809263ef9e6df4a8fa8640e214d030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sketchfab_model_root_GLTF_SceneRootNode_Empty_5_Top_4Mat
+    second: {fileID: 2100000, guid: 4a8528d5e9b333746ba8e2382b8398ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Elec__outlet_frameMat
+    second: {fileID: 2100000, guid: 3a73ce1dcdf1b3b4e9424ea4048ba1d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Elec__outlet_outlet_colorMat
+    second: {fileID: 2100000, guid: 0e1649bf5864816428419c70115a568d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Medical_Air_frameMat
+    second: {fileID: 2100000, guid: 157f0344eb4feb04ba21f8b0a31f722f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Medical_Air_outletMat
+    second: {fileID: 2100000, guid: 26550db9924b40b4eafaff3e9bc7844b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Medical_Air_outlet_colorMat
+    second: {fileID: 2100000, guid: c47c78c8e1ca5d6438205f9e9cb7fab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Medvac_outlet_frameMat
+    second: {fileID: 2100000, guid: c96303d753149a548a8d956cebcb8b52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Medvac_outlet_outletMat
+    second: {fileID: 2100000, guid: 211bf3bc8c6c5774dbb832fd1438486e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Medvac_outlet_outlet_colorMat
+    second: {fileID: 2100000, guid: 6a26ad0614b8a6a49a6a801843fff490, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Oxygent_outlet_frameMat
+    second: {fileID: 2100000, guid: 4c83be0e15ad7e548904514bb3027705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Oxygent_outlet_outletMat
+    second: {fileID: 2100000, guid: 064cc0ab8cd86fb4dacc514a5ef899e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Outlet_Oxygent_outlet_outlet_colorMat
+    second: {fileID: 2100000, guid: 666b39a0cd23856418e383e0ca7de559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_PlasticMat
+    second: {fileID: 2100000, guid: cc008e4032a7aa248a47621d0ac54daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Plastic_WMat
+    second: {fileID: 2100000, guid: 3d86ebd79a31fe34abaccbf44dce3d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Screen_BottonMat
+    second: {fileID: 2100000, guid: 621b94eddde3a8f4aaa0ad744dc1aa5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Screen_frameMat
+    second: {fileID: 2100000, guid: b37923eddc8653f4aa3a5771ca4097fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIER_HORIZONTAL_HEADWALLS_Screen_screenMat
+    second: {fileID: 2100000, guid: 01fc7c733912d344fbf9fcab9b43f885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_CuffMat
+    second: {fileID: 2100000, guid: a8643cc7d987c324ab8b3ab69eed59f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_MonitorMat
+    second: {fileID: 2100000, guid: 5cd54dd46244d854bb33c62a4d761798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_Monitor_screenMat
+    second: {fileID: 2100000, guid: a6299f0c9652a0848a675794727e81ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_Temperature_kitMat
+    second: {fileID: 2100000, guid: 19b4400bdee1ab1449708d27f72894b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_WheelsMat
+    second: {fileID: 2100000, guid: 8195b44da7050a645ba9f53d73f8d206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_Wheels_coverMat
+    second: {fileID: 2100000, guid: cb10aca5d1b5b874ab8943ba7997b45f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vital_Monitor_WiresMat
+    second: {fileID: 2100000, guid: 781081d40ebe6b74e903004d36ec06d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Bathroom_Wall_baseboardMat
+    second: {fileID: 2100000, guid: 0f2ac0efff0ef4d4bb1cc482a67ff366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Bathroom_wallMat
+    second: {fileID: 2100000, guid: 2fe9d91d69ec457499136805b5935c4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Orignal_wallMat
+    second: {fileID: 2100000, guid: 4056f967e61cffe48a9271ec66c6ed20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Patient_room_Wall_baseboardMat
+    second: {fileID: 2100000, guid: 2f0ae102db60e7b4e9cd629a7ed53dbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Wall_panalsMat
+    second: {fileID: 2100000, guid: 006eafaad04979a4abb2639b7bee6c3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Wall_panals_P_1Mat
+    second: {fileID: 2100000, guid: 24120bbc870c7c647a8007d5bfa90bcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Wall_panals_P_2Mat
+    second: {fileID: 2100000, guid: 5103a9e7197d60140a28f9d877be5bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_smoth_edgesMat
+    second: {fileID: 2100000, guid: 71ec129e2415877429bfc4523640fbf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedro1_bedro1_sldprt_bedro1Mat
+    second: {fileID: 2100000, guid: e894c8d5c61b5624a893871bde1fabb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bedro2_bedro2_sldprt_bedro2Mat
+    second: {fileID: 2100000, guid: f83bc73c16ea89d469a1aa18a23e8e51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levaia_golen_levaia_golen_sldprt_levaia_golenMat
+    second: {fileID: 2100000, guid: ac12c2907f56dd44a985a13789b56fa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levaia_kist1_levaia_kist1_sldprt_levaia_kist1Mat
+    second: {fileID: 2100000, guid: 408435ed16eacdb4aae26dba07fbe871, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levaia_stopa_levaia_stopa_sldprt_levaia_stopaMat
+    second: {fileID: 2100000, guid: 4d0382ab166ea94449ff77aafce4e29f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levoe_plecho12_levoe_plecho12_sldprt_levoe_plecho12Mat
+    second: {fileID: 2100000, guid: d48f65da190699d499ec03ab28aa6d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levoe_plecho1_levoe_plecho1_sldprt_levoe_plecho1Mat
+    second: {fileID: 2100000, guid: db046abb2f205404b9e6c444e86906a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: levoe_predplecjie12_levoe_predplecjie12_sldprt_levoe_predplecjie12Mat
+    second: {fileID: 2100000, guid: 0bf1694641870a34fb5ce38cd27b4890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lighting_GlassMat
+    second: {fileID: 2100000, guid: ee031f720ac57e54fb9fba090682b603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lighting_light_frameMat
+    second: {fileID: 2100000, guid: 9c214116bd3b7d540b5a7a3ea9ab935c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pravaia_golen_pravaia_golen_sldprt_pravaia_golenMat
+    second: {fileID: 2100000, guid: 69a75db66c231964ebbc16391b98e0c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pravaia_kist_1_pravaia_kist_1_sldprt_pravaia_kist_1Mat
+    second: {fileID: 2100000, guid: a784455905412c94491bbe1d13e224f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pravaia_stopa_pravaia_stopa_sldprt_pravaia_stopaMat
+    second: {fileID: 2100000, guid: 9bfc836d003a37f43a4d544c25ceb3a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pravoe_predplechie12_pravoe_predplechie12_sldprt_pravoe_predplechie12Mat
+    second: {fileID: 2100000, guid: 72ec21d0c173d5547bfb2759b7f8b29b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_frameMat
+    second: {fileID: 2100000, guid: cb1f3925e1d476640b7fa6841dc77908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows_glassMat
+    second: {fileID: 2100000, guid: f1f08cab6dd8e304a993f9ac55c4839f, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
