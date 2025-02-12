@@ -38,7 +38,7 @@
     },
     "com.unity.ext.nunit": {
       "version": "2.0.5",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -90,6 +90,15 @@
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.learn.iet-framework.authoring": {
+      "version": "1.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.learn.iet-framework": "3.1.3"
       },
       "url": "https://packages.unity.com"
     },
@@ -190,7 +199,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.4.5",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",
@@ -219,26 +228,32 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.timeline": {
-      "version": "1.8.7",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.director": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ugui": {
       "version": "2.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.unity.xr.arfoundation": {
+      "version": "6.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.xr.core-utils": "2.3.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
       "version": "2.3.0",
@@ -300,8 +315,20 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.meta-openxr": {
+      "version": "2.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.openxr": "1.10.0",
+        "com.unity.xr.core-utils": "2.3.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.arfoundation": "6.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.openxr": {
-      "version": "1.13.1",
+      "version": "1.13.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
