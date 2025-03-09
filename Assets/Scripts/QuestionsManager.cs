@@ -1,13 +1,16 @@
 using TMPro;
+using System.IO;
 using UnityEngine;
+using System.Text;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 public class QuestionsManager : MonoBehaviour
 {
-    [Header("UI Elements")] public List<Button> sectionButtons;
+    public bool StopMonitor = false;
+    
+    [Header("UI Elements")] 
+    public List<Button> sectionButtons;
     public List<GameObject> sectionIndicators;
     public TMP_Text questionText;
     public TMP_Text questionCounterText;
@@ -21,11 +24,21 @@ public class QuestionsManager : MonoBehaviour
     public GameObject QuestionPanel;
     public GameObject SectionPanel;
 
-    [Header("ECG Monitor")] public TMP_Text HeartRateText;
+    [Header("ECG Monitor")] 
+    public TMP_Text HeartRateText;
     public TMP_Text TempratureText;
     public TMP_Text SopText;
+    public Text TotalText;
+    public Text CurrentText;
+    public Text ResultText;
+    
+    [Header("Computer Input")]
+    public Dropdown dropdown1;
+    public Dropdown dropdown2;
+    public TMP_Text resultText;
 
-    [Header("Data")] public List<Section> sections;
+    [Header("Data")] 
+    public List<Section> sections;
 
     private int currentSectionIndex = -1;
     private int currentQuestionIndex = 0;
@@ -39,7 +52,9 @@ public class QuestionsManager : MonoBehaviour
             int index = i;
             //sectionButtons[i].onClick.AddListener(() => SelectSection(index));
         }
-
+        
+        dropdown2?.onValueChanged.AddListener(delegate { CalculateDifference(); });
+        
         trueToggle.onValueChanged.AddListener((isOn) => OnToggleChanged(isOn, trueToggle, "True"));
         falseToggle.onValueChanged.AddListener((isOn) => OnToggleChanged(isOn, falseToggle, "False"));
 
@@ -49,19 +64,45 @@ public class QuestionsManager : MonoBehaviour
         ResetUI();
         SelectSection(0);
 
-        InvokeRepeating(nameof(UpdateHeartRate), 0, 0.8f);
+        InvokeRepeating(nameof(UpdateHeartRate), 0, 0.5f);
+    }
+
+    public void StopMonitorBool()
+    {
+        StopMonitor = true;
     }
 
     void UpdateHeartRate()
     {
-        int simulatedHeartRate = Random.Range(70, 100);
-        HeartRateText.text = simulatedHeartRate.ToString();
+        if (!StopMonitor)
+        {
+            int simulatedHeartRate = Random.Range(7, 10) * 10;  // 70, 80, 90
+            HeartRateText.text = simulatedHeartRate.ToString();
 
-        int temp = Random.Range(90, 100);
-        TempratureText.text = simulatedHeartRate.ToString();
+            int temp = Random.Range(9, 10) * 10;  // 90, 100
+            TempratureText.text = temp.ToString();
 
-        int sop = Random.Range(60, 100);
-        SopText.text = simulatedHeartRate.ToString();
+            int sop = Random.Range(6, 10) * 10;  // 60, 70, 80
+            SopText.text = sop.ToString();
+
+            int total = Random.Range(8, 12) * 10; // 80, 90, 100, 110
+            int current = Random.Range(8, total / 10 + 1) * 10; // Ensures current is always ≤ total
+            int result = total - current;
+        
+            TotalText.text = total + "/";
+            CurrentText.text = current.ToString();
+            ResultText.text = result.ToString();
+        }
+    }
+    
+    public void CalculateDifference()
+    {
+        int value1 = int.Parse(dropdown1.options[dropdown1.value].text);
+        int value2 = int.Parse(dropdown2.options[dropdown2.value].text);
+
+        int result = Mathf.Max(value1 - value2, 0); // Ensures no negative result
+
+        resultText.text = result.ToString();
     }
 
     void ResetUI()

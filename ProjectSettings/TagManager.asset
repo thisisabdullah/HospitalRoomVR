@@ -8,6 +8,7 @@ TagManager:
   - LeftHand
   - RightHand
   - ClipBoard
+  - ArmCoverTrigger
   layers:
   - Default
   - TransparentFX
