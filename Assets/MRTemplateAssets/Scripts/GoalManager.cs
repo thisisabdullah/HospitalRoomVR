@@ -123,10 +123,10 @@ public class GoalManager : MonoBehaviour
 
         if (m_FadeMaterial != null)
         {
-            m_FadeMaterial.FadeSkybox(true);
+            m_FadeMaterial.FadeSkybox(false);
 
             if (m_PassthroughToggle != null)
-                m_PassthroughToggle.isOn = true;
+                m_PassthroughToggle.isOn = false;
         }
 
         if (m_LearnButton != null)

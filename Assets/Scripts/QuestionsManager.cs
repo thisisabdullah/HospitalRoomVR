@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using System.IO;
 using UnityEngine;
@@ -8,6 +9,9 @@ using System.Collections.Generic;
 public class QuestionsManager : MonoBehaviour
 {
     public bool StopMonitor = false;
+    public string MrSceneName;
+    public GameObject Hospital;
+    public GameObject LoadingPanel;
     
     [Header("UI Elements")] 
     public List<Button> sectionButtons;
@@ -23,6 +27,8 @@ public class QuestionsManager : MonoBehaviour
     public GameObject ThirdPartPanel;
     public GameObject QuestionPanel;
     public GameObject SectionPanel;
+    public GameObject[] InstructionPanels;
+    public GameObject[] QuestionPanels;
 
     [Header("ECG Monitor")] 
     public TMP_Text HeartRateText;
@@ -52,21 +58,68 @@ public class QuestionsManager : MonoBehaviour
             int index = i;
             //sectionButtons[i].onClick.AddListener(() => SelectSection(index));
         }
-        
+    
         dropdown2?.onValueChanged.AddListener(delegate { CalculateDifference(); });
-        
+    
         trueToggle.onValueChanged.AddListener((isOn) => OnToggleChanged(isOn, trueToggle, "True"));
         falseToggle.onValueChanged.AddListener((isOn) => OnToggleChanged(isOn, falseToggle, "False"));
 
         nextButton.onClick.AddListener(NextQuestion);
         previousButton.onClick.AddListener(PreviousQuestion);
         finishButton.onClick.AddListener(Finish);
-        ResetUI();
-        SelectSection(0);
 
+        ResetUI();
+
+        LoadProgress(); // 👈 Load saved progress
+        StartCoroutine(EnableCamera());
         InvokeRepeating(nameof(UpdateHeartRate), 0, 0.5f);
     }
 
+    private IEnumerator EnableCamera()
+    {
+        yield return new WaitForSeconds(12f);
+        Hospital.SetActive(true);
+        LoadingPanel.SetActive(false);
+    }
+
+    void LoadProgress()
+    {
+        if (PlayerPrefs.HasKey("SavedSectionIndex") && PlayerPrefs.HasKey("SavedQuestionIndex"))
+        {
+            int savedSection = PlayerPrefs.GetInt("SavedSectionIndex");
+            int savedQuestion = PlayerPrefs.GetInt("SavedQuestionIndex");
+
+            if (savedSection >= 0 && savedSection < sections.Count)
+            {
+                currentSectionIndex = savedSection;
+                currentQuestionIndex = Mathf.Clamp(savedQuestion, 0, sections[savedSection].Questions.Count - 1);
+
+                ResetUI();
+                sectionIndicators[currentSectionIndex].SetActive(true);
+                DisplayQuestion();
+            }
+            else
+            {
+                SelectSection(0); // fallback
+            }
+
+            foreach (var panel in InstructionPanels)
+            {
+                panel.SetActive(false);
+            } 
+            
+            foreach (var panel in QuestionPanels)
+            {
+                panel.SetActive(true);
+            }
+        }
+        else
+        {
+            SelectSection(0); // No saved progress, start fresh
+        }
+    }
+
+    
     public void StopMonitorBool()
     {
         StopMonitor = true;
@@ -175,15 +228,23 @@ public class QuestionsManager : MonoBehaviour
                 Debug.Log("Quiz Finished");
             }
         }
+
+        SaveProgress(); // Save after moving to next
     }
+
 
     public void Finish()
     {
         QuestionPanel.SetActive(false);
         SectionPanel.SetActive(false);
         ThirdPartPanel.SetActive(true);
-        ExportToCSV();
+
+        PlayerPrefs.DeleteKey("SavedSectionIndex");
+        PlayerPrefs.DeleteKey("SavedQuestionIndex");
+
+        //ExportToCSV();
     }
+
 
     public void PreviousQuestion()
     {
@@ -230,6 +291,20 @@ public class QuestionsManager : MonoBehaviour
         string key =
             $"Section {currentSectionIndex + 1} - Q{currentQuestionIndex + 1} - {currentQuestion.QuestionText}";
         userAnswers[key] = answer;
+    }
+    
+    void SaveProgress()
+    {
+        PlayerPrefs.SetInt("SavedSectionIndex", currentSectionIndex);
+        PlayerPrefs.SetInt("SavedQuestionIndex", currentQuestionIndex);
+        PlayerPrefs.Save();
+    }
+
+    [ContextMenu("MR")]
+    public void LoadMrScene()
+    {
+        //SceneManager.LoadScene(MrSceneName);
+        Application.Quit();
     }
 
     void ExportToCSV()

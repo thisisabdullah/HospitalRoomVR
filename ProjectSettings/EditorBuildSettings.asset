@@ -6,11 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
     path: Assets/Scenes/SampleScene1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/ObjectTracking.unity
+    guid: bf685d74e0f770f42a70d8923e3a8236
+  - enabled: 1
+    path: "Assets/Samples/Meta XR Interaction \u200BSDK/74.0.1/Example Scenes/UISetExamples
+      1.unity"
+    guid: f9e88449588c1ed459d50fd181938cb3
+  - enabled: 1
+    path: Assets/Scenes/SampleSceneBackup.unity
+    guid: 549d8931ec9771146bcb4b4dc6701aee
+  - enabled: 1
+    path: Assets/Scenes/QR-Code.unity
+    guid: e987f7153ee1cc3408b53e4b612c029c
+  - enabled: 0
+    path: Assets/PassthroughCameraApiSamples/BrightnessEstimation/BrightnessEstimation.unity
+    guid: 8ea13e682474e1748965f8e21972f2b2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

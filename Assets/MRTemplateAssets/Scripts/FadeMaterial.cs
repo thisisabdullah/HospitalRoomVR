@@ -13,11 +13,10 @@ public class FadeMaterial : MonoBehaviour
 
     public void FadeSkybox(bool visible)
     {
-        // if (m_FadeCoroutine != null)
-        //     StopCoroutine(m_FadeCoroutine);
+        if (m_FadeCoroutine != null)
+            StopCoroutine(m_FadeCoroutine);
 
-        //m_FadeCoroutine = StartCoroutine(Fade(visible));
-        Environment.SetActive(visible);
+        m_FadeCoroutine = StartCoroutine(Fade(visible));
     }
 
     //Fade Coroutine
