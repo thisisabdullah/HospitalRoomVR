@@ -2179,7 +2179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa60095211a0a9f4990d439a37c2f493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VrSceneName: SampleScene1
+  VrSceneName: HospitalOVR
   bathroomPrefab: {fileID: 1042989092}
 --- !u!4 &213838775
 Transform:
@@ -4352,7 +4352,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useRecommendedMSAALevel: 1
   _monoscopic: 0
   _sharpenType: 0
   _enableDynamicResolution: 1
@@ -5772,6 +5771,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ovrCameraRig: {fileID: 454989642}
+  _leftHand: {fileID: 0}
+  _rightHand: {fileID: 0}
   _requireOvrHands: 1
 --- !u!114 &574184003
 MonoBehaviour:
@@ -10512,6 +10513,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1042989093}
     m_Modifications:
+    - target: {fileID: -9165508696556002024, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8716896253475826265, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -10572,6 +10577,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8114353627124537979, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7898185841593816494, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -10584,6 +10593,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 48bf9e694bb7b42df8b4e4cd666c0f2c, type: 2}
+    - target: {fileID: -4979893139454694007, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4970418561786305144, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -10592,10 +10605,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2776297941512862300, guid: 7901d8219f6a24ef0a60ce89da693f9c, type: 3}
+    - target: {fileID: -2448825527850444969, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -2428940630558524494, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ff97e31c61928db42a4a403b8d642fe9, type: 2}
+    - target: {fileID: -1308228985657368229, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -1152869702923888269, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -10620,6 +10641,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2776297941512862300, guid: 7901d8219f6a24ef0a60ce89da693f9c, type: 3}
+    - target: {fileID: 303253497322099589, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: m_Name
       value: Hospital Patient room_1.1
@@ -10627,6 +10652,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164269837749474769, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1392373195932738580, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -10654,7 +10683,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3d9d7c65a6c954aa2b5ac7810f7ed398, type: 2}
     - target: {fileID: 6469620550630290013, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908645776819629104, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6908645776819629104, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -10668,6 +10701,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ff97e31c61928db42a4a403b8d642fe9, type: 2}
+    - target: {fileID: 8781454460300514594, guid: 7f96754c39e344702940d5017987311a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8781454460300514594, guid: 7f96754c39e344702940d5017987311a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 

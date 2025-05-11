@@ -5,13 +5,12 @@ using UnityEngine;
 using System.Text;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class QuestionsManager : MonoBehaviour
 {
     public bool StopMonitor = false;
     public string MrSceneName;
-    public GameObject Hospital;
-    public GameObject LoadingPanel;
     
     [Header("UI Elements")] 
     public List<Button> sectionButtons;
@@ -71,15 +70,7 @@ public class QuestionsManager : MonoBehaviour
         ResetUI();
 
         LoadProgress(); // 👈 Load saved progress
-        StartCoroutine(EnableCamera());
         InvokeRepeating(nameof(UpdateHeartRate), 0, 0.5f);
-    }
-
-    private IEnumerator EnableCamera()
-    {
-        yield return new WaitForSeconds(12f);
-        Hospital.SetActive(true);
-        LoadingPanel.SetActive(false);
     }
 
     void LoadProgress()
@@ -303,8 +294,8 @@ public class QuestionsManager : MonoBehaviour
     [ContextMenu("MR")]
     public void LoadMrScene()
     {
-        //SceneManager.LoadScene(MrSceneName);
-        Application.Quit();
+        SceneManager.LoadScene(MrSceneName);
+        //Application.Quit();
     }
 
     void ExportToCSV()

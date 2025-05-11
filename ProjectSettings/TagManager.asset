@@ -10,6 +10,19 @@ TagManager:
   - ClipBoard
   - ArmCoverTrigger
   - FingerTrigger
+  - QDSUITooltip
+  - QDSUIToggleButton
+  - QDSUITextSecondaryColor
+  - QDSUIIcon
+  - QDSUIBackplateGradient
+  - QDSUIToggleBorderlessButton
+  - SamplesInfoPanel
+  - QDSUIToggleSwitch
+  - QDSUISharedThemeColor
+  - QDSUIAccentColor
+  - QDSUIBorderlessButton
+  - QDSUISecondaryButton
+  - QDSUISection
   layers:
   - Default
   - TransparentFX

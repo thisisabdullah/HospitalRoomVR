@@ -5,20 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/HospitalOVR.unity
+    guid: 06589388c46b60145bc5b10573661765
+  - enabled: 1
     path: Assets/Scenes/ObjectTracking.unity
     guid: bf685d74e0f770f42a70d8923e3a8236
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Samples/Meta XR Interaction \u200BSDK/74.0.1/Example Scenes/UISetExamples
       1.unity"
     guid: f9e88449588c1ed459d50fd181938cb3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleSceneBackup.unity
     guid: 549d8931ec9771146bcb4b4dc6701aee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/QR-Code.unity
     guid: e987f7153ee1cc3408b53e4b612c029c
   - enabled: 0
