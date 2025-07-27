@@ -1,19 +1,19 @@
 # ninja log v5
-536	4823	7659688778030708	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	48079bc607e7fec2
-523	4845	7659688778070607	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	14cda234e6a24094
-532	4867	7659688778526958	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b0e625260fb5c529
-154	4926	7659688779195247	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	bb4a8e4d25f3c28c
-526	4855	7659688778480290	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	40e7fa420b204d78
-545	4943	7659688779364787	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	855b2b2706e8ca5f
-5326	5690	7659688786841474	E:/Unity Projects/HospitalRoomVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p3q696x/obj/arm64-v8a/libgame.so	365482705df600c0
-541	5239	7659688782334457	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a6c6038d4209935f
-529	5325	7659688783212844	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8f64b4b2d71269f3
-107	4079	7659705012470366	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	48079bc607e7fec2
-86	4104	7659705012510237	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	14cda234e6a24094
-8	4141	7659705013058770	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	40e7fa420b204d78
-97	4152	7659705013088691	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b0e625260fb5c529
-94	4261	7659705014182028	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	bb4a8e4d25f3c28c
-115	4266	7659705014376812	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	855b2b2706e8ca5f
-102	4512	7659705016849347	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a6c6038d4209935f
-90	4610	7659705017834570	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8f64b4b2d71269f3
-4610	5633	7659705028063316	E:/Unity Projects/HospitalRoomVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p3q696x/obj/arm64-v8a/libgame.so	365482705df600c0
+45	4523	7753056581442085	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	af12f27e9b2d2425
+72	4153	7753056577610373	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	259506581cf48ace
+20	4555	7753056581761874	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	39acf9b39097fdfd
+58	4772	7753056583931976	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9e246d69321ad9af
+5129	12339	7753056659685093	E:/Unity Projects/HospitalRoomVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p3q696x/obj/arm64-v8a/libgame.so	47bb4888461d900
+86	4437	7753056580333662	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	bcbe6632f7795241
+32	4377	7753056579739640	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	6de2d39ae64e1e25
+100	5128	7753056587483543	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	420fc991259f43c0
+9	4997	7753056586171108	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	837c8035c59c5d1c
+38	3113	7753059469606331	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	af12f27e9b2d2425
+64	3232	7753059470902428	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	259506581cf48ace
+26	3344	7753059471911503	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	39acf9b39097fdfd
+78	3386	7753059472377209	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	bcbe6632f7795241
+93	3402	7753059472655483	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	9e246d69321ad9af
+51	3428	7753059472923361	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	6de2d39ae64e1e25
+107	3845	7753059477133360	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	420fc991259f43c0
+14	3896	7753059477621749	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	837c8035c59c5d1c
+3897	4112	7753059479855199	E:/Unity Projects/HospitalRoomVR/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1p3q696x/obj/arm64-v8a/libgame.so	47bb4888461d900

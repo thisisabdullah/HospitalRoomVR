@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class QuestionsManager : MonoBehaviour
 {
+    public bool ShowEnter = false;
     public bool StopMonitor = false;
     public string MrSceneName;
     
@@ -28,6 +29,7 @@ public class QuestionsManager : MonoBehaviour
     public GameObject SectionPanel;
     public GameObject[] InstructionPanels;
     public GameObject[] QuestionPanels;
+    public GameObject EnterUI;
 
     [Header("ECG Monitor")] 
     public TMP_Text HeartRateText;
@@ -71,6 +73,11 @@ public class QuestionsManager : MonoBehaviour
 
         LoadProgress(); // 👈 Load saved progress
         InvokeRepeating(nameof(UpdateHeartRate), 0, 0.5f);
+
+        if (ShowEnter)
+        {
+            EnterUI.SetActive(false);
+        }
     }
 
     void LoadProgress()
@@ -103,6 +110,8 @@ public class QuestionsManager : MonoBehaviour
             {
                 panel.SetActive(true);
             }
+
+            ShowEnter = true;
         }
         else
         {
