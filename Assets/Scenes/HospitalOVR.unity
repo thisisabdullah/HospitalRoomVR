@@ -5451,6 +5451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneA: Passthrough
   sceneB: ObjectTracking
+  vrScene: HospitalOVR
 --- !u!4 &384157243
 Transform:
   m_ObjectHideFlags: 0

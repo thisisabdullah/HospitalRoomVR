@@ -9,6 +9,9 @@ public class VRSceneSwitcher : MonoBehaviour
     [Tooltip("The name of the scene to load when B is pressed")]
     public string sceneB = "SceneB";
 
+    [Tooltip("The name of the VR scene to load when Y is pressed")]
+    public string vrScene = "VRScene";
+
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -16,27 +19,33 @@ public class VRSceneSwitcher : MonoBehaviour
 
     private void Update()
     {
-        // Check for left controller A button press
-        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.LTouch) || 
-            OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
+        // Check for A button (Right controller)
+        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
         {
             LoadScene(sceneA);
         }
-        
-        // Check for left controller B button press
-        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.LTouch) || 
-            OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
+
+        // Check for B button (Right controller)
+        if (OVRInput.GetDown(OVRInput.Button.Two, OVRInput.Controller.RTouch))
         {
             LoadScene(sceneB);
         }
+
+        // Check for Y button (Left controller)
+        if (OVRInput.GetDown(OVRInput.Button.Four))
+        {
+            LoadScene(vrScene);
+        }
+
     }
-    
+
     private void LoadScene(string sceneName)
     {
         if (!string.IsNullOrEmpty(sceneName))
         {
-            // Check if the scene exists in build settings
-            if (SceneUtility.GetBuildIndexByScenePath(sceneName) >= 0)
+            // Load only if scene exists in Build Settings
+            int sceneIndex = SceneUtility.GetBuildIndexByScenePath(sceneName);
+            if (sceneIndex >= 0)
             {
                 SceneManager.LoadScene(sceneName);
             }

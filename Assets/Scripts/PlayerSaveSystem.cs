@@ -12,20 +12,15 @@ public class PlayerSaveSystem : MonoBehaviour
     void Start()
     {
         LoadPlayerData();
-        SceneManager.activeSceneChanged += OnSceneChanged; // Subscribe to scene change event
-    }
-
-    void OnDestroy()
-    {
-        SceneManager.activeSceneChanged -= OnSceneChanged; // Unsubscribe to prevent memory leaks
+        InvokeRepeating(nameof(Save), 0f, 1.5f);
     }
     
     void OnApplicationQuit()
     {
-        SavePlayerData();
+        ResetData();
     }
 
-    private void OnDisable()
+    private void Save()
     {
         SavePlayerData();
     }
